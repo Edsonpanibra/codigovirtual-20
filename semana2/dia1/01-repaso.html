@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap");
       body {
         color: #eee;
         background-color: #222;
+        font-family: 'ROBOTO', sans-serif;
+
       }
       section {
         font-size: 20px;
@@ -24,12 +27,26 @@
       ul > li {
         border: 1px solid yellow;
       }
-      section .row:nth-child(5)> p{
-        
+      section .row:nth-child(5) > p {
       }
+      ol li:nth-child(2) {
+        border: 1px solid green;
+      }
+      h1{
+
+        font-weight: 100;
+      }
+      h2{
+        text-align: right;
+      }
+      a {
+        text-decoration: none;
+      }
+        
     </style>
   </head>
   <body>
+    <h1>Estilos CSS</h1>
     <section>
       <p>texto del parrafo</p>
       texto fuera del parrafo
@@ -39,12 +56,21 @@
       <ul>
         <li>JavaScript</li>
         <ol>
-            <li>NodeJS</li>
-            <li>Browser</li>
+          <li>NodeJS</li>
+          <li>Browser</li>
         </ol>
         <li>Python</li>
         <li>typeScript</li>
+        <li>
+            <a href="">ver mas</a>
+        </li>
       </ul>
+      <section class="fuente-roboto"></section>
+    </section>
+    <section>
+        <h2>
+            <p>un parrafo pequeño</p>
+        </h2>
     </section>
   </body>
 </html>
