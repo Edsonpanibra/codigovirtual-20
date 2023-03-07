@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        background-color: #444;
+        color: #eee;
+        font-family: sans-serif;
+      }
+      code {
+        font-family: consolas;
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tabalas</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Filas y Columnas</h2>
+        <p>Las tablas se colocan dentro de una etiqueta <code>table</code></p>
+        <p>Las tablas tienen 3 partes</p>
+        <ul>
+          <li><code>thead</code>: Cabecera</li>
+          <li><code>tbody</code> Cuerpo</li>
+          <li><code>tfoot</code> Pie de tabla</li>
+        </ul>
+      </section>
+      <hr />
+      <section>
+        <h2>Tabla simple</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Cantidad</th>
+              <th>Descripcion</th>
+              <th>P. Unitario</th>
+              <th>P. Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Teclado mecanico</td>
+              <td>S/ 200</td>
+              <td>S/ 300</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Monitor widescreen Samsung</td>
+              <td>S/ 800.00</td>
+              <td>S/ 800.00</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>laptop hp</td>
+              <td>S/ 5500.00</td>
+              <td>S/ 9900.00</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <td colspan="3" align="center">Total</td>
+            <td>S/ 15400.00</td>
+          </tfoot>
+        </table>
+      </section>
+      <hr />
+      <section>
+        <h2>Combinando filas</h2>
+        <p>Para combinar filas se usa el atributo <code>rowspan</code></p>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Categoría</th>
+              <th>Etiquetas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="5">izquierda</td>
+              <td>derecha</td>
+            </tr>
+            <tr>
+              <td>derecha</td>
+            </tr>
+            <tr>
+              <td>derecha</td>
+            </tr>
+            <tr>
+              <td>derecha</td>
+            </tr>
+            <tr>
+              <td>derecha</td>
+            </tr>
+            <tr>
+              <td rowspan="5">izquierda</td>
+              <td>derecha</td>
+            </tr>
+            <tr>
+              <td>derecha</td>
+            </tr>
+            <tr>
+              <td>derecha</td>
+            </tr>
+            <tr>
+              <td>derecha</td>
+            </tr>
+            <tr>
+              <td>derecha</td>
+            </tr>
+            <tr>
+              <td rowspan="6">izquierda</td>
+              <td>derecha</td>
+            </tr>
+            <tr>
+              <td>derecha</td>
+            </tr>
+            <tr>
+              <td>derecha</td>
+            </tr>
+            <tr>
+              <td>derecha</td>
+            </tr>
+            <tr>
+              <td>derecha</td>
+            </tr>
+            <tr>
+              <td>derecha</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Ejercicio</h2>
+        <table border="1">
+            <tbody>
+                tr*5>td*3{texto}
+
+            </tbody>
+           
+
+
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

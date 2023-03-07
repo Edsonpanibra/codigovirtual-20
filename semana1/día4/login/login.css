@@ -1,0 +1,75 @@
+/* solo es el nombre y declara propiedades*/
+
+body{
+    background-color: blue;
+    }
+
+.cuerpo{
+    background-color: blue
+}
+
+
+#masa{
+    background-color: rgb(89, 0, 255);
+}
+
+body{
+background-color: rgba(224, 207, 226, 0.655);
+}
+
+/*se declara anteponinedo al nombre de la clase*/
+
+/*cuerpo{
+background- color: blue;
+
+}*/
+body{
+    margin: 0;
+    padding: 0;
+    background-image: ;
+}
+
+.login-box{
+    width: 320px;
+    height: 420px;
+    background-color: black;
+    color: aliceblue;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10px;
+
+}
+
+.login-box .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    top: -50%;
+    left: calc(50% - 50%);
+}
+
+.login-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight:bold;
+    display: block;
+}
+.login-box input{
+width: 100%;
+margin-bottom: 20px;
+
+}
+
+
+

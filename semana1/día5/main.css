@@ -1,0 +1,24 @@
+body{
+    background-color: aqua;
+    color: brown;
+    font-size: 20px;
+border: solid 3px;
+}
+.rojo{
+
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid 3px;
+    width: 200px;
+    height: 50px;
+    padding: 30px;
+    margin-top: 100px;
+    margin-left: 20px;
+    padding-top: 30px;
+    padding: 10px 10px 20px 30px;
+    text-align: center;
+}
+.apellido{
+    color: chocolate;
+}
